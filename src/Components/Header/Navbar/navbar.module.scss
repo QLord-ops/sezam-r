@@ -22,10 +22,31 @@ $dark-text-color: #363636;
     text-transform: uppercase;
     & > li > a {
       color: $dark-text-color;
+      font-size: 15px;
     }
   }
 }
 
 [aria-current="page"] {
   color: #ff0101 !important;
+}
+
+@media (max-width: 960px) {
+  .navbar {
+    &__menu {
+      display: none;
+    }
+
+    &__logo  {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    &__logo {
+      width: 100px;
+    }
+  }
 }

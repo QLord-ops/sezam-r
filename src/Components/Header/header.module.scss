@@ -21,9 +21,28 @@ $white: #fff;
       & p {
         padding: 0;
         margin: 0;
+
       }
+
       & img {
         width: 30px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .header {
+    &__rowInfo {
+      &__box {
+        & p {
+          font-size: 12px;
+        }
+
+        & a {
+          font-size: 11px;
+        }
       }
     }
   }

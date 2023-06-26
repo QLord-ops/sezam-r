@@ -35,3 +35,10 @@
 .social-icon:hover:before {
   transform: scaleX(1);
 }
+
+
+@media (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
+}
