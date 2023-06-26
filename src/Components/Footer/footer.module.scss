@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  &__image {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & address {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &__menu {
+    text-align: center;
+    color: #fff;
+
+    & h3 {
+      margin-bottom: 30px;
+    }
+
+    & ul {
+      flex-direction: column;
+    }
+
+    & ul li a {
+      color: #fff;
+
+      &[aria-current=page] {
+        border: none;
+      }
+    }
+
+    h4 {
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    &__link {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+  }
+
+}
+
+
+

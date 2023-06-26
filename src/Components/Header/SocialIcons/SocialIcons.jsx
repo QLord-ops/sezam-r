@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faViber, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './SocialIcons.scss'; // Подключение файла стилей
