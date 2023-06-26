@@ -1,0 +1,30 @@
+$darkgrey: rgb(32, 35, 42);
+$white: #fff;
+
+.header {
+  background: $darkgrey;
+  padding: 30px 15px 0 15px;
+
+  &__rowInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    &__box {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+
+      color: $white;
+
+      & p {
+        padding: 0;
+        margin: 0;
+      }
+      & img {
+        width: 30px;
+      }
+    }
+  }
+}
