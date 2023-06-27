@@ -30,62 +30,62 @@ export const category = [
         id: 1,
         to: '/metal-doors',
         img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        text: 'Металеві  двері'
     },
 
     {
         id: 2,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/metal-gates',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-2.jpg',
+        text: 'Металеві ворота з автоматикою і без'
     },
 
     {
         id: 3,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/lattices',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-3.jpg',
+        text: 'Ґрати на вікна'
     },
 
     {
         id: 4,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/metal-blinds',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-04.jpg',
+        text: 'Захисні металеві жалюзі'
     },
 
     {
         id: 5,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/visors',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-05.jpg',
+        text: 'Козирки (металеві ферми для даху)'
     },
 
     {
         id: 6,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/forged-products',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-06.jpg',
+        text: 'Ковані вироби'
     },
 
     {
         id: 7,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/mdf',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-07.jpg',
+        text: 'МДФ фасади для дверей'
     },
 
     {
         id: 8,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/interior-door',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-08.jpg',
+        text: 'Міжкімнатні двері'
     },
 
     {
         id: 9,
-        to: '/metal-doors',
-        img: 'http://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
-        text: 'МЕТАЛЕВІ ДВЕРІ'
+        to: '/windows',
+        img: 'http://sezam-kharkiv.com.ua/images/categories/image-09.jpg',
+        text: 'Металопластикові вікна'
     },
 ]
