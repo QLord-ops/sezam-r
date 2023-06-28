@@ -6,7 +6,7 @@ import s from './card.module.scss'
 const Cards = () => {
     return (
         <section>
-            <Container/>
+            <Container>
             <div className={s.section__wrapper}>
                 <Row className={s.row}>
                     {
@@ -22,6 +22,7 @@ const Cards = () => {
                     }
                 </Row>
             </div>
+            </Container>
         </section>
     );
 };

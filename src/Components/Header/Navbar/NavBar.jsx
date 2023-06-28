@@ -9,7 +9,7 @@ const NavBar = () => {
         <nav className={s.navbar}>
             <div className={s.navbar__logo}>
                 <NavLink to="/">
-                    <img src="http://sezam-kharkiv.com.ua/images/pic/sezam-logo.jpg" alt=""/>
+                    <img src="http://sezam-kharkiv.com.ua/images/pic/sezam-logo.png" alt=""/>
                 </NavLink>
             </div>
             <NavLinkMenu />

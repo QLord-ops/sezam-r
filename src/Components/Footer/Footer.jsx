@@ -12,7 +12,7 @@ const Footer = () => {
                     <Col>
                         <div className={s.footer__image}>
                             <NavLink to="/">
-                                <img src="http://sezam-kharkiv.com.ua/images/pic/sezam-logo.jpg" alt="лого"/>
+                                <img src="http://sezam-kharkiv.com.ua/images/pic/sezam-logo.png" alt="лого"/>
                             </NavLink>
                         </div>
                         <div className={s.footer__contacts}>

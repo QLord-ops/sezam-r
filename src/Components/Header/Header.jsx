@@ -29,7 +29,6 @@ const Header = () => {
                         </div>
                     </div>
                     <NavBar/>
-
                 </div>
             </Container>
         </header>
