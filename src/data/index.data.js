@@ -111,4 +111,28 @@ export const cards = [
         description: 'Незламність металу, втілена в наших виробах: професійна команда забезпечує якість, надійність та безпеку',
         mark: 'http://sezam-kharkiv.com.ua/images/pic/winner.svg'
     },
+];
+
+
+export const questions = [
+    {
+        id: 1,
+        question: 'lorem1',
+        answer: 'loremloremloremloremloremloremloremloremlorem'
+    },
+    {
+        id: 2,
+        question: 'lorem2',
+        answer: 'loremloremloremloremloremloremloremloremlorem'
+    },
+    {
+        id: 3,
+        question: 'lorem2',
+        answer: 'loremloremloremloremloremloremloremloremlorem'
+    },
+    {
+        id: 4,
+        question: 'lorem4',
+        answer: 'loremloremloremloremloremloremloremloremlorem'
+    },
 ]
