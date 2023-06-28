@@ -89,3 +89,26 @@ export const category = [
         text: 'Металопластикові вікна'
     },
 ]
+
+export const cards = [
+    {
+        id: 1,
+        number: '01',
+        description: 'Незламність металу, втілена в наших виробах: професійна команда забезпечує якість, надійність та безпеку',
+        mark: 'http://sezam-kharkiv.com.ua/images/pic/winner.svg'
+    },
+
+    {
+        id: 2,
+        number: '02',
+        description: 'Незламність металу, втілена в наших виробах: професійна команда забезпечує якість, надійність та безпеку',
+        mark: 'http://sezam-kharkiv.com.ua/images/pic/winner.svg'
+    },
+
+    {
+        id: 3,
+        number: '03',
+        description: 'Незламність металу, втілена в наших виробах: професійна команда забезпечує якість, надійність та безпеку',
+        mark: 'http://sezam-kharkiv.com.ua/images/pic/winner.svg'
+    },
+]
