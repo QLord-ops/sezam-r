@@ -1,0 +1,39 @@
+.disabledLink {
+  text-decoration: none;
+  color: #363636!important;
+  position: relative;
+}
+
+.disabledLink:before {
+  content: '↯';
+  position: absolute;
+  right: -15px;
+  top: 0;
+  font-size: 15px;
+  color: #252222;
+  font-weight: 600;
+}
+
+
+.navbar__submenu {
+  position: absolute;
+  background: white;
+  border-top: 4px solid #cc0000;
+  padding: 20px 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & li {
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px 0;
+    & a {
+      color: #1a1a1a;
+      &:hover {
+        color: #ab0808;
+      }
+    }
+  }
+}
+

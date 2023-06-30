@@ -6,12 +6,12 @@ import According from "../According/Accordion.jsx";
 
 const IndexPage = () => {
     return (
-            <>
+            <div>
                 <Main />
                 <CategoryProducts />
                 <Cards />
                 <According />
-            </>
+            </div>
     );
 };
 

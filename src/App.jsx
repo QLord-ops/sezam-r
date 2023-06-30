@@ -4,6 +4,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./Components/Header/Header.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import IndexPage from "./Components/IndexPage/IndexPage.jsx";
+import ToBuyers from "./Pages/ToBuyers.jsx";
+
 
 
 const App = () => {
@@ -15,6 +17,7 @@ const App = () => {
                 <Header/>
                 <Routes>
                     <Route path="/" element={<IndexPage />} />
+                    <Route path="/toBuyers" element={<ToBuyers />} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>

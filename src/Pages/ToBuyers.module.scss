@@ -1,0 +1,10 @@
+.toBuyers {
+  margin: 200px 0;
+
+  & h1 {
+  color: #fff;
+    font-size: clamp(13px, 4vw, 30px);
+    font-style: italic;
+    line-height: 50px;
+  }
+}
