@@ -15,6 +15,7 @@ import Mdf from "./Pages/Mdf/Mdf.jsx";
 import InteriorDoors from "./Pages/InteriorDoors/InteriorDoors.jsx";
 import MetalWindow from "./Pages/MetalWindow/MetalWindow.jsx";
 import Company from "./Components/Company/Company.jsx";
+import Contacts from "./Components/Contacts/Contacts.jsx";
 
 
 
@@ -38,6 +39,7 @@ const App = () => {
                     <Route path="/interior-doors" element={<InteriorDoors />} />
                     <Route path="/metal-windows" element={<MetalWindow />} />
                     <Route path="/aboutCompany" element={<Company />} />
+                    <Route path="/contacts" element={<Contacts />} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>
