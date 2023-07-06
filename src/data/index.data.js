@@ -29,14 +29,14 @@ export const links = [
 export const category = [
     {
         id: 1,
-        to: '/metal-doors',
+        to: '/MetalDoors',
         img: 'https://sezam-kharkiv.com.ua/images/categories/image-1.jpg',
         text: 'Металеві  двері'
     },
 
     {
         id: 2,
-        to: '/metal-gates',
+        to: '/metal-AutomaticGates',
         img: 'https://sezam-kharkiv.com.ua/images/categories/image-2.jpg',
         text: 'Металеві ворота з автоматикою і без'
     },

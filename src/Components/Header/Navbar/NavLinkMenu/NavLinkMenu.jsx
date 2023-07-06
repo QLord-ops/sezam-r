@@ -24,35 +24,35 @@ const NavLinkMenu = () => {
                                 <ul className="navbar__submenu">
                                     {/* Вставьте здесь ссылки для выпадающего меню */}
                                     <li>
-                                        <NavLink to="/submenu-link-1">Металеві двері</NavLink>
+                                        <NavLink to="/metal-doors">Металеві двері</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-2">Металеві ворота з автоматикою і без</NavLink>
+                                        <NavLink to="/automatic-gates">Металеві ворота з автоматикою і без</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-3">Ґрати на вікна</NavLink>
+                                        <NavLink to="/bars-on-window">Ґрати на вікна</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-4">Захисні металеві жалюзі</NavLink>
+                                        <NavLink to="/metal-shutters">Захисні металеві жалюзі</NavLink>
 
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-5">Металеві ферми для даху</NavLink>
+                                        <NavLink to="/ferm">Металеві ферми для даху</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-6">Металеві огорожі</NavLink>
+                                        <NavLink to="/metal-fences">Металеві огорожі</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-7">Ковані вироби</NavLink>
+                                        <NavLink to="/forged-products">Ковані вироби</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-8">МДФ фасади для дверей</NavLink>
+                                        <NavLink to="/mdf">МДФ фасади для дверей</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-9">Міжкімнатні двері</NavLink>
+                                        <NavLink to="/interior-doors">Міжкімнатні двері</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/submenu-link-10">Металопластикові вікна</NavLink>
+                                        <NavLink to="/metal-windows">Металопластикові вікна</NavLink>
                                     </li>
                                     {/* ... */}
                                 </ul>

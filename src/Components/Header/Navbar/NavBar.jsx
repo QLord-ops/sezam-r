@@ -4,6 +4,7 @@ import {NavLink} from "react-router-dom";
 import BurgerMenu from "./burger/BurgerMenu.jsx";
 import NavLinkMenu from "./NavLinkMenu/NavLinkMenu.jsx";
 
+
 const NavBar = () => {
     return (
         <nav className={s.navbar}>

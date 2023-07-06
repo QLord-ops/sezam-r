@@ -1,32 +1,33 @@
-import Slider from "../Components/Slider/Slider.jsx";
+import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import s from './ToBuyers.module.scss'
+import Slider from "../../Components/Slider/Slider.jsx";
+import s from "../MetalDoors/MetalDoors.module.scss"
 
-const images = [
+const automaticGates = [
     {
-        image: 'https://sezam-kharkiv.com.ua/images/doorImg/door.jpeg'
+        image : "https://sezam-kharkiv.com.ua/images/vorota/vorota1.jpeg"
     },
-
     {
-        image: 'https://sezam-kharkiv.com.ua/images/doorImg/door2.jpeg'
+        image : "https://sezam-kharkiv.com.ua/images/vorota/vorota2.jpeg"
     },
-
     {
-        image: 'https://sezam-kharkiv.com.ua/images/doorImg/door3.jpeg'
+        image : "https://sezam-kharkiv.com.ua/images/vorota/vorota3.jpeg"
     },
-
     {
-        image: 'https://sezam-kharkiv.com.ua/images/doorImg/door3.jpeg'
+        image : "https://sezam-kharkiv.com.ua/images/vorota/vorota4.jpeg"
     },
+    {
+        image : "https://sezam-kharkiv.com.ua/images/vorota/vorota5.jpeg"
+    }
 ]
 
-const ToBuyers = () => {
+const AutomaticGates = () => {
     return (
         <div className={s.toBuyers}>
             <Container>
                 <Row>
                     <Col xs="12" lg="6">
-                        <Slider slides={images}/>
+                        <Slider slides={automaticGates}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
                         <h1>
@@ -39,4 +40,4 @@ const ToBuyers = () => {
     );
 };
 
-export default ToBuyers;
+export default AutomaticGates;
