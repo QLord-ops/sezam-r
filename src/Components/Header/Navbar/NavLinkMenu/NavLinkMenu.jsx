@@ -1,15 +1,19 @@
 import s from "../navbar.module.scss";
 import {links} from "../../../../data/index.data.js";
 import {NavLink} from "react-router-dom";
-import {useState} from "react";
+import {useRef, useState} from "react";
 import './navLinkMenu.scss'
 
 const NavLinkMenu = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
+
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
     };
+
+
+
 
     return (
         <ul className={`${s.navbar__menu} menuMobile`}>

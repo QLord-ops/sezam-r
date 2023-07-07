@@ -7,19 +7,41 @@
   }
   &__box_contacts {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     border: solid 2px white;
     padding: 50px;
     box-shadow: 6px 6px 6px 6px whitesmoke;
+    justify-content: center;
   }
   &__tel {
     color: white;
   }
+
+  &__box_img2 img {
+    width: 30px;
+    padding-right: 10px;
+  }
+
+  &__box_address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+   svg {
+    fill: white;
+     height: 20px;
+     padding-right: 10px;
+  }
+
   &__box_about {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     border: solid 2px white;
     padding: 50px;
     box-shadow: -05px 6px 6px 6px whitesmoke;
+    justify-content: center;
   }
   &__address {
     color: #ffffff;
@@ -29,12 +51,21 @@
   &__mail {
     color: #ffffff;
   }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__box_img img {
+    padding-right: 5px;
+  }
 }
 
 @media (max-width: 767px) {
   .contacts {
     &__box {
-      font-size: 10px;
+      font-size: 9px;
     }
   }
 }
@@ -51,12 +82,12 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 400px){
+@media (min-width: 250px) and (max-width: 400px){
   .contacts {
     &__box {
       flex-direction: column;
       justify-content: center;
-      gap: 20px;
+      gap: 40px;
     }
 
     &__box_contacts {
