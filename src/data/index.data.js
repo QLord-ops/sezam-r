@@ -118,22 +118,30 @@ export const cards = [
 export const questions = [
     {
         id: 1,
-        question: 'lorem1',
-        answer: 'loremloremloremloremloremloremloremloremlorem'
+        question: 'Хочу зробити замовлення. Як це зробити?',
+        link: '/contacts',
+        answer: 'з представником компанії, щоб він виїхав на об\'єкт і зняв мірки для замовлення. Замірник зробить точні вимірювання розмірів і врахує Ваші побажання.'
     },
     {
         id: 2,
-        question: 'lorem2',
-        answer: 'loremloremloremloremloremloremloremloremlorem'
+        question: 'Всього кілька кроків до мети... Дії від замовлення\n' +
+            '                                    до установки:\n' +
+            '                                ',
+        answer: '\n' +
+            '                                    1.Замір розмірів виробу 2. Консультація з виробником\n' +
+            '                                    і вибір комплектуючих 3. Укладення договору на\n' +
+            '                                    виробництво 4. Оплата згідно з умовами договору 5.\n' +
+            '                                    Виготовлення виробу виробником 6. Установка дверей\n' +
+            '                                    професійними монтажниками\n' +
+            '                                '
     },
     {
         id: 3,
-        question: 'lorem2',
-        answer: 'loremloremloremloremloremloremloremloremlorem'
+        question: 'Як оплатити замовлення?',
+        answer: '\n' +
+            '                                    Оплатити Ваше замовлення, можливо готівковим і\n' +
+            '                                    безготівковим розрахунком.\n' +
+            '                                '
     },
-    {
-        id: 4,
-        question: 'lorem4',
-        answer: 'loremloremloremloremloremloremloremloremlorem'
-    },
+
 ]
