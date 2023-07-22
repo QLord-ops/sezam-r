@@ -13,7 +13,7 @@ const NavBar = () => {
                     <img src="http://sezam-kharkiv.com.ua/images/pic/sezam-logo.png" alt=""/>
                 </NavLink>
             </div>
-            <NavLinkMenu />
+            <NavLinkMenu showHeaderItem={true}/>
             <BurgerMenu/>
 
         </nav>

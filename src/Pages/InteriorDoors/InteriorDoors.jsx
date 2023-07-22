@@ -34,9 +34,7 @@ const InteriorDoors = () => {
                         <Slider slides={interiorDoors}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Наші міжкімнатні двері з МДФ - це стильні, міцні і довговічні вироби. Вони мають естетичну привабливість, високу міцність і простоту обслуговування. Ми пропонуємо широкий вибір дизайнів і кольорів МДФ. Звертайтеся до нас для отримання більш детальної інформації і оформлення замовлення.</h1>
                     </Col>
                 </Row>
             </Container>

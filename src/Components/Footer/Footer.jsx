@@ -25,7 +25,7 @@ const Footer = () => {
                     <Col>
                         <div className={s.footer__menu}>
                             <h3>Меню</h3>
-                            <NavLinkMenu/>
+                            <NavLinkMenu showHeaderItem={false}/>
                         </div>
                     </Col>
                     <Col>

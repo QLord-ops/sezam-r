@@ -30,9 +30,7 @@ const BarsOnWindow = () => {
                             <Slider slides={barsOnWindow}/>
                         </Col>
                         <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                            <h1>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                            </h1>
+                            <h1>Наші ґрати на вікна - надійне рішення для захисту вашого дому чи офісу. Вони міцні, довговічні і перешкоджають незаконному доступу. Є широкий вибір дизайнів і матеріалів. Легкі в установці і мають зручний механізм відкривання. Забезпечують безпеку, вентиляцію і приватність. Команда професіоналів готова надати консультацію і оформити замовлення.</h1>
                         </Col>
                     </Row>
                 </Container>

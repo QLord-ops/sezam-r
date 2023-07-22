@@ -1,62 +1,85 @@
 import s from "../navbar.module.scss";
 import {links} from "../../../../data/index.data.js";
 import {NavLink} from "react-router-dom";
-import {useRef, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import './navLinkMenu.scss'
 
-const NavLinkMenu = () => {
+const NavLinkMenu = ({ showHeaderItem }) => {
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const menuRef = useRef(null)
+
+useEffect(() => {
+    const handleClickOutside = (event) => {
+        if (menuRef.current && !menuRef.current.contains(event.target)){
+            setMenuOpen(false)
+        }
+    }
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+        document.removeEventListener('click', handleClickOutside)
+    };
+}, []);
 
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
     };
 
-
+    const closeMenu = () => {
+        setMenuOpen(false);
+    }
 
 
     return (
-        <ul className={`${s.navbar__menu} menuMobile`}>
+        <ul className={`${s.navbar__menu} menuMobile`} ref={menuRef}>
             {links.map((link) => (
                 <li key={link.id}>
                     {link.id === 2 ? (
                         <div>
-                            <NavLink to={link.to} onClick={toggleMenu} className={link.disabledLink}>
+                            { showHeaderItem && (
+                            <NavLink
+                                to={link.to}
+                                onClick={toggleMenu}
+                                className={link.disabledLink}
+
+                            >
                                 {link.name}
                             </NavLink>
+                            )}
                             {isMenuOpen && (
-                                <ul className="navbar__submenu">
+                                <ul className="navbar__submenu" onClick={closeMenu}>
                                     {/* Вставьте здесь ссылки для выпадающего меню */}
                                     <li>
-                                        <NavLink to="/metal-doors">Металеві двері</NavLink>
+                                        <NavLink to="/metal-doors" onClick={closeMenu}>Металеві двері</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/automatic-gates">Металеві ворота з автоматикою і без</NavLink>
+                                        <NavLink to="/automatic-gates" onClick={closeMenu}>Металеві ворота з автоматикою і без</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/bars-on-window">Ґрати на вікна</NavLink>
+                                        <NavLink to="/bars-on-window" onClick={closeMenu}>Ґрати на вікна</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/metal-shutters">Захисні металеві жалюзі</NavLink>
+                                        <NavLink to="/metal-shutters" onClick={closeMenu}>Захисні металеві жалюзі</NavLink>
 
                                     </li>
                                     <li>
-                                        <NavLink to="/ferm">Металеві ферми для даху</NavLink>
+                                        <NavLink to="/ferm" onClick={closeMenu}>Металеві ферми для даху</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/metal-fences">Металеві огорожі</NavLink>
+                                        <NavLink to="/metal-fences" onClick={closeMenu}>Металеві огорожі</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/forged-products">Ковані вироби</NavLink>
+                                        <NavLink to="/forged-products" onClick={closeMenu}>Ковані вироби</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/mdf">МДФ фасади для дверей</NavLink>
+                                        <NavLink to="/mdf" onClick={closeMenu}>МДФ фасади для дверей</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/interior-doors">Міжкімнатні двері</NavLink>
+                                        <NavLink to="/interior-doors" onClick={closeMenu}>Міжкімнатні двері</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/metal-windows">Металопластикові вікна</NavLink>
+                                        <NavLink to="/metal-windows" onClick={closeMenu}>Металопластикові вікна</NavLink>
                                     </li>
                                     {/* ... */}
                                 </ul>

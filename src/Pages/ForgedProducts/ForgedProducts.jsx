@@ -33,9 +33,7 @@ const ForgedProducts = () => {
                         <Slider slides={forgedProducts}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Ми пропонуємо унікальну колекцію кованих виробів, виготовлених вручну з високоякісних матеріалів. Наш асортимент включає ворота, огорожі, решітки, сходи та інші вироби. Ми також можемо розробити ковані вироби за індивідуальним проектом. Наші вироби підкреслять ваш стиль та нададуть елегантності вашому простору. Звертайтеся до нас для детальної інформації та підбору виробів.</h1>
                     </Col>
                 </Row>
             </Container>

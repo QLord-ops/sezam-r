@@ -33,9 +33,7 @@ const Mdf = () => {
                         <Slider slides={mdf}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Наші МДФ фасади - високоякісні панелі з МДФ плит, покритих захисним шаром. Вони стійкі до зовнішніх впливів, мають широкий вибір дизайнів, міцні та довговічні. Ми також пропонуємо індивідуальне замовлення. Наші МДФ фасади нададуть вашим вхідним металевим дверям елегантності, стилю і захисту.</h1>
                     </Col>
                 </Row>
             </Container>

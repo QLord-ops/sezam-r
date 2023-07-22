@@ -33,9 +33,7 @@ const MetalFences = () => {
                         <Slider slides={metalFences}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Ми пропонуємо високоякісні металеві огорожі для безпеки і обмеження доступу на об'єкті. Виготовлені з міцних матеріалів, вони задовольняють вимоги безпеки і мають різні стилі і кольори. Металеві огорожі є міцними, довговічними і стійкими до погодних умов. Ми надаємо професійну установку, сервісне обслуговування і ремонт, а також гарантуємо якість і конкурентні ціни. Звертайтеся до нас для додаткової інформації і консультації.</h1>
                     </Col>
                 </Row>
             </Container>

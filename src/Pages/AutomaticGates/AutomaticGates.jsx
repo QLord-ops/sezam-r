@@ -31,7 +31,9 @@ const AutomaticGates = () => {
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
                         <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
+                            Ми пропонуємо різні варіанти воріт для Вашого об'єкта, включаючи ворота з автоматикою і без неї. Ворота з автоматикою забезпечують зручність і комфорт, використовуючи автоматичні системи відкривання та закривання. Ворота без автоматики підходять для тих, хто віддає перевагу простим рішенням. Ми допоможемо Вам вибрати найбільш підходящий варіант і можемо запропонувати додаткові опції та аксесуари. Звертайтеся до нас, щоб отримати більш детальну інформацію та консультацію щодо воріт для Вашого об'єкта.
+
+
                         </h1>
                     </Col>
                 </Row>

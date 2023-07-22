@@ -30,8 +30,7 @@ const MetalShutters = () => {
                         <Slider slides={metalShutters}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
+                        <h1>Захисні металеві жалюзі - ефективний спосіб забезпечити безпеку вашого дому або бізнесу. Вони міцні і довговічні, контролюють проникнення світла і повітря, забезпечують приватність. Жалюзі стійкі до вандалізму, вторгнень і ударів. Вибір дизайну і кольору дозволяє гармонійно вписати їх у будівлю. Професіонали готові допомогти вибрати оптимальні жалюзі для вас. Забезпечте безпеку свого приміщення з нашими надійними жалюзі.
                         </h1>
                     </Col>
                 </Row>

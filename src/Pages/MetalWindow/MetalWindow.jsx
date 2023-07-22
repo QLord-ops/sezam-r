@@ -30,9 +30,7 @@ const MetalWindow = () => {
                         <Slider slides={metalWindows}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Пропонуємо вам металопластикові вікна високої якості з енергоефективністю, звукоізоляцією, безпекою, довговічністю і стильним дизайном. Гарантуємо професійну установку і надаємо гарантію. Зв'яжіться з нами для отримання додаткової інформації.</h1>
                     </Col>
                 </Row>
             </Container>

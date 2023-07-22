@@ -30,9 +30,7 @@ const Ferm = () => {
                         <Slider slides={ferm}/>
                     </Col>
                     <Col xs="12" lg="6" style={{display: "flex", alignItems: 'center', justifyContent: 'center'}}>
-                        <h1>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A error impedit, molestias perferendis provident veniam. Enim eum in maiores modi quo repellendus, repudiandae soluta vel.
-                        </h1>
+                        <h1>Ми пропонуємо металеві ферми для захисту об'єкта від погодних умов. Вони мають міцну конструкцію і можуть бути виготовлені в різних розмірах і формах. Металеві ферми забезпечують захист від дощу, снігу, вітру і сонячного випромінювання. Ми надаємо індивідуальні рішення, професійну установку і обслуговування. Зв'яжіться з нами для отримання додаткової інформації.</h1>
                     </Col>
                 </Row>
             </Container>
