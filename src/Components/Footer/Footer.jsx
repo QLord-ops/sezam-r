@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className={s.footer__contacts}>
                             <address>м. Харків, вул. Пушкінська 56</address>
                             <Link to="tel:+380677527969">+38(067)-752-79-69</Link>
-                            <Link to="tel:+380953229283">+38 (095)-322-92-83</Link>
+                            <Link to="tel:+380953229283">+38(095)-322-92-83</Link>
                             <Link to="mailto:sezam95@ukr.net">sezam95@ukr.net</Link>
                         </div>
                     </Col>
